@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+const path = require('path')
 const port = 3010;
 const bodyParser = require('body-parser')
 const cors = require('cors')
@@ -9,6 +10,10 @@ app.use(express.static('dist'));
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: true}))
 app.use(cors())
+
+app.get('/getFooter', (req,res) => {
+    res.sendFile(path.join(`${__dirname}/../dist/bundle.js`))
+})
 
 app.get('/footer', (req, res) => {
     connection.query('SELECT * FROM mando_header', function (error, results) {
