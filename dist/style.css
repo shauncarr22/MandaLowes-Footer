@@ -1,7 +1,7 @@
 
 html{
   overflow-x: hidden;
-  overflow-y: hidden;
+  overflow-y: scroll;
   width: 100%;
 }
 body{
@@ -11,14 +11,14 @@ body{
 
 .footer{
     /* background-color: whitesmoke; */
-    background-color: #dfdfdf;
+    /* background-color: #dfdfdf; */
     height: 770px;
     widows: 100%;
     position: relative;
-    top: 600px;
+    top: 1300px;
 }
 
-.footer-topbar-text {
+/* .footer-topbar-text {
     position: relative;
     left: 45px;
     padding: 45px;
@@ -258,6 +258,10 @@ body{
     font-weight: bold;
   } */
 
+  .div {
+    display: inline-block;
+    float: left;
+}
 
 
-
+ */

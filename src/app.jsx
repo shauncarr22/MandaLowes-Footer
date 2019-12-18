@@ -9,7 +9,8 @@ class App extends Component {
     render() {
         return (
             <div className="footer">
-                    <img className="footer-topbar-pic"src="https://www.shareicon.net/data/2016/04/02/743328_chat_512x512.png"/>
+                <img src='https://i.imgur.com/cix3x6D.png'/>
+                    {/* <img className="footer-topbar-pic"src="https://www.shareicon.net/data/2016/04/02/743328_chat_512x512.png"/>
                     <img className="footer-topbar-box" src="http://cdn.onlinewebfonts.com/svg/img_399836.png"/>
                     <img className="footer-topbar-creditCard" src='https://icon-library.net/images/credit-card-icon-png/credit-card-icon-png-4.jpg'/>
                     <img className="footer-topbar-giftCard" src='https://static.thenounproject.com/png/194835-200.png'/>
@@ -26,7 +27,6 @@ class App extends Component {
                 </div>
                     <div><p className="line"></p> </div>
                 <div>
-                   <div>
                     <ul className="list-1" >
                         <li id="list-header1" className='list-content'>About Manda Lowes</li>
                         <li className='list-content'>Company Overview</li>
@@ -37,8 +37,6 @@ class App extends Component {
                         <li className='list-content'>Lowe's Suppliers</li>
                         <li className='list-content'>Affiliate Program</li>
                     </ul>
-                   </div>
-                <div>
                     <ul className="list-2" >
                         <li id="list-header2" className='list-content-2'>STORES & SERVICES</li>
                         <li className='list-content-2'>Find a Store</li>
@@ -49,8 +47,6 @@ class App extends Component {
                         <li className='list-content-2'>Lowe's For Pros</li>
                         <li className='list-content-2'>Lowe's Canada</li>
                     </ul> 
-                </div>
-                <div>
                     <ul className="list-3" >
                         <li id="list-header3" className='list-content-3'>CUSTOMER SERVICE</li>
                         <li className='list-content-3'>Rebates</li>
@@ -61,20 +57,14 @@ class App extends Component {
                         <li className='list-content-3'>Protection Plans</li>
                         <li className='list-content-3'>Military Discount</li>
                     </ul> 
-                </div>
-                <div>
                     <ul className="list-4" >
                         <li id="list-header4" className='list-content-4'>BE THE FIRST TO KNOW</li>
                         <li className='list-content-4'>Sign up for Emails to get exclusive offers, tips and <br/>more.</li>
                     </ul> 
-                </div>
-                    <div>
                         <ul className="list-5" >
                             <li id="list-header5" className='list-content-5'>CONNECT WISTH US</li>
                             <li className='list-content-5'> Facebook | Twitter | Instagram | Youtube</li>
                         </ul> 
-                    </div>
-                        <div>
                         <ul className="list-6" >
                             <li id="list-header6" className='list-content-6'>About Manda Lowes</li>
                             <li className='list-content-6'>Mon - Sat: 8 a.m. - 10 p.m. (ET)</li>
@@ -82,8 +72,7 @@ class App extends Component {
                             <li className='list-content-6'>Text: 84109 | Call: 1-800-445-6937</li>
                             <li className='list-content-6'>(Messaging and data rates will blow up your planet)</li>
                         </ul> 
-                    </div>
-                </div>
+                </div> */}
             </div>
         )
     }
